@@ -1,0 +1,10 @@
+body{
+  background: url("../images/ping.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+h3{
+  text-align: center;
+  font-family: sans-serif;
+}
