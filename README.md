@@ -1,8 +1,8 @@
-# Blog website
-Anita's Resort, 30/4/2018
+# PingPong game website
+Ping Pong, 30/4/2018
 #### By **Arnold Henry**
 ## Description
-This is website that shows Anita's food menu that are offered as part of her services.
+This is a ping pong website
 ![Landing page photo](images/screenshotland.png)
 ## Setup/Installation Requirements
 No installation needed just click the link below to view my website online
