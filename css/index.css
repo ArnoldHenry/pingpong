@@ -22,6 +22,7 @@ h3{
   width: 100%;
   opacity: 0.8;
   border-radius: 3px;
+  box-shadow: 1px 2px 3px #e6f9ff;
 }
 p{
   font-family: Playfair Display;
@@ -42,6 +43,7 @@ h5{
   text-align: left;
   font-family: Cormorant Garamond;
   border-radius: 4px;
+  box-shadow: 1px 2px 3px #e6f9ff;
 }
 h6{
   font-family: Playfair Display;
@@ -58,7 +60,12 @@ input{
   border-radius: 7px;
   text-align: center;
   border: none;
-
+  transition: 1000ms;
+  box-shadow: 1px 1px 1px 1px #99e6ff;
+}
+input:hover{
+  transition: 1000ms;
+  box-shadow: 1px 2px 3px #e6f9ff;
 }
 .mybtn{
   padding: 1%;
@@ -71,4 +78,12 @@ input{
   background-color: #99e6ff;
   color: #FFFFFF;
   cursor: pointer;
+  transition: 2000ms;
+}
+.mybtn:hover{
+  background-color: #FFFFFF;
+  color: #000000;
+  border:none;
+  transition: 1000ms;
+  box-shadow: 1px 2px 3px #99e6ff;
 }
