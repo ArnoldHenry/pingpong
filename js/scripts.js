@@ -3,12 +3,12 @@ function mypingfunction(myresult){
   var storedarray = [];
 
   for (var i = 1; i <= myresult; i++) {
-    if ((i%3) === 0) {
-      storedarray.push("ping");
+    if ((i%15) === 0) {
+      storedarray.push("pingpong");
     }else if ((i%5) === 0 ){
       storedarray.push("pong");
-    }else if ((i%15) === 0) {
-      storedarray.push("pingpong");
+    }else if ((i%3) === 0) {
+      storedarray.push("ping");
     }else {
       storedarray.push(i);
     }
@@ -16,7 +16,6 @@ function mypingfunction(myresult){
 // alert(storedarray);
 return storedarray;
 }
-
 
 $(document).ready(function(){
   $("form#myformid").submit(function(event){
@@ -28,6 +27,5 @@ $(document).ready(function(){
        $("#mynumber").val('');
        event.preventDefault();
      });
-
   });
 });
