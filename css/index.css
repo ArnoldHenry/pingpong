@@ -1,5 +1,5 @@
 body{
-  background: url("../images/ping.jpg");
+  background: url("../img/ping.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Cormorant Unicase;
@@ -28,7 +28,6 @@ p{
   font-family: Playfair Display;
   font-size: 22px;
   padding: 1%;
-  color:#00ace6 ;
 }
 li{
   font-family: Raleway;

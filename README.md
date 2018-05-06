@@ -1,12 +1,12 @@
-# PingPong game website
-Ping Pong, 06/5/2018
+# Ping-Pong game website
+Ping-Pong, 06/5/2018
 #### By **Arnold Henry**
 ## Description
 This is a ping-pong website
-![Landing page screen-shot](img/screenshot.png)
+![Screen-shot Landing page](img/Screenshot.png)
 ## Setup/Installation Requirements
 No installation needed just click the link below to view my website online
-[PingPong](https://arnoldhenry.github.io/pingpong/)
+[Ping-Pong](https://arnoldhenry.github.io/pingpong/)
 ## Known Bugs
 No bugs
 ## Technologies Used
