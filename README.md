@@ -1,4 +1,4 @@
-# Ping-Pong game website
+# Ping-Pong Web Application
 Ping-Pong, 06/5/2018
 #### By **Arnold Henry**
 ## Description
