@@ -20,7 +20,6 @@ return storedarray;
 
 $(document).ready(function(){
   $("form#myformid").submit(function(event){
-       // event.preventDefault();
     $("#answers").empty();
     var myresult = parseInt($("input#mynumber").val());
      var storedarray = mypingfunction(myresult);
