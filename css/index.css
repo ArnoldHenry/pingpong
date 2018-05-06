@@ -2,9 +2,73 @@ body{
   background: url("../images/ping.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: fixed;
+  font-family: Cormorant Unicase;
 }
 h3{
   text-align: center;
   font-family: sans-serif;
+}
+
+.pingcenter{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 55px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.pingform{
+  background-color: #e6e6e6;
+  padding: 3%;
+  width: 100%;
+  opacity: 0.8;
+  border-radius: 3px;
+}
+p{
+  font-family: Playfair Display;
+  font-size: 22px;
+  padding: 1%;
+}
+li{
+  font-family: Raleway;
+}
+h5{
+  font-family: Playfair Display;
+}
+.answercontainer{
+  background-color: #FFFFFF;
+  width: 50%;
+  opacity: 0.8;
+  padding: 3%;
+  text-align: left;
+  font-family: Cormorant Garamond;
+  border-radius: 4px;
+}
+h6{
+  font-family: Playfair Display;
+  font-size: 25px;
+  color: #FFFFFF;
+  text-align: center;
+}
+u{
+  color:#00ace6 ;
+}
+input{
+  color: #004d66;
+  padding: 1%;
+  border-radius: 7px;
+  text-align: center;
+  border: none;
+
+}
+.mybtn{
+  padding: 1%;
+  border-radius: 4px;
+  border: none;
+  font-family: Playfair Display;
+  float: right;
+  text-align: center;
+  width: 30%;
+  background-color: #99e6ff;
+  color: #FFFFFF;
+  cursor: pointer;
 }

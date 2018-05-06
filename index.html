@@ -3,20 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>Ping Pongs</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 
   </head>
   <body>
-      <form id="myformid">
-        <h4 class="pingcenter">Ping Pong</h4>
-        <p>Enter a number</p>
-        <input type="number" id="mynumber" placeholder="Enter a digit number"><br>
+      <h4 class="pingcenter">Ping-Pong</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="pingform">
+              <form id="myformid">
+              <u><h5>Game play instructions</h5></u>
+                <ol>
+                  <li>Numbers divisible by 3 are replaced with "ping".</li>
+                  <li>Numbers divisible by 5 are replaced with "pong".</li>
+                  <li>Numbers divisible by 15 are replaced with "pingpong".</li>
+                </ol>
+                <p>Enter a number</p>
+                <input type="number" id="mynumber" placeholder="Enter a digit number"><br>
 
-        <button type="submit" name="button" id="nm" class="btn btn-primary">Submit</button><br>
-            <p id="answers"></p>
-      </form>
+                <button type="submit" name="button" id="nm" class="mybtn">Submit</button><br>
+              </form>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="answercontainer">
+              <h6>Results:</h6>
+                <p id="answers"></p>
+            </div>
+          </div>
 
+        </div>
+      </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="js/scripts.js">
 
