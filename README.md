@@ -1,9 +1,9 @@
 # PingPong game website
-Ping Pong, 30/4/2018
+Ping Pong, 06/5/2018
 #### By **Arnold Henry**
 ## Description
-This is a ping pong website
-![Landing page photo](images/screenshotland.png)
+This is a ping-pong website
+![Landing page screen-shot](img/screenshot.png)
 ## Setup/Installation Requirements
 No installation needed just click the link below to view my website online
 [PingPong](https://arnoldhenry.github.io/pingpong/)
